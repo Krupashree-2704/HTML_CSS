@@ -1,0 +1,4 @@
+<!-- alpha html 5 up -
+    style.css is last executable link->
+
+    -nth child : to access different different elements in particular block
