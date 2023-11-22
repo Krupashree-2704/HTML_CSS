@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Souled Store-clone</title>
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section id="NavigatorSection">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./images/navbarlogo.PNG" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  TOPWEAR
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Shirts</a></li>
+                  <li><a class="dropdown-item" href="#">T-shirt</a></li>
+                  <li><a class="dropdown-item" href="#">Hoodies and Sweatshirts</a></li>
+                  <li><a class="dropdown-item" href="#">Jackest</a></li>
+                  <li><a class="dropdown-item" href="#">Dresses and Jumpsuits</a></li>
+                  
+              
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  BOTTOMWEAR
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Joggers</a></li>
+                  <li><a class="dropdown-item" href="#">Cotton Pants</a></li>
+                  <li><a class="dropdown-item" href="#">Jeans</a></li>
+                  <li><a class="dropdown-item" href="#">Shorts</a></li>
+                  <li><a class="dropdown-item" href="#">All cargoes</a></li>
+                 
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">SNEAKERS</a>
+              </li> 
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  ACCESSORIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Umbrella</a></li>
+                  <li><a class="dropdown-item" href="#">Shoes</a></li>
+                  <li><a class="dropdown-item" href="#">Backpacks</a></li>
+                  <li><a class="dropdown-item" href="#">Perfumes</a></li>
+                  <li><a class="dropdown-item" href="#">Caps</a></li>
+                  
+              
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  COLLECTIONS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">New Arrival</a></li>
+                  <li><a class="dropdown-item" href="#">Street Wear</a></li>
+                  <li><a class="dropdown-item" href="#">Best Seller</a></li>
+                  <li><a class="dropdown-item" href="#">Active Wear</a></li>
+                  <li><a class="dropdown-item" href="#">Hottest Deal</a></li>
+                  
+              
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                  SHOP BY THEME
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Superheroes</a></li>
+                  <li><a class="dropdown-item" href="#">Movies and TV Shows</a></li>
+                  <li><a class="dropdown-item" href="#">Cartoons and Comics</a></li>
+                  <li><a class="dropdown-item" href="#">Sports</a></li>
+                  <li><a class="dropdown-item" href="#">Popular Genres</a></li>
+                  
+              
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">MEMBERSHIP</a>
+              </li>
+            </ul>
+            
+          </div>
+          <!-- ul and copy code membership and in ul class nnavbar-nav -->
+          <ul class="navbar-nav" id="IconHead">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" ><i class="fa fa-search" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+  </section>
+    <!-- <section id="CauroselSection">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="./images/img1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/img2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/img3.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+             <img src="./images/img4.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+             <img src="./images/img5.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        </div>
+      
+    </section> -->
+  <section id="MainCourosel">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="./images/img1.webp" class="d-block w-100" alt="...">
+
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/img2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/img3.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/img4.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="./images/img5.webp" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+      
+  </section>
+  <section id="FantomSection">
+    <h1>SHOP BY FANTOM</h1>
+    <div id="carouselExample1" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/Fantom/1.webp"  alt="...">
+          <img src="./images/Fantom/2.webp" alt="...">
+          <img src="./images/Fantom/3.webp" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/Fantom/4.webp"  alt="...">
+          <img src="./images/Fantom/5.webp"  alt="...">
+          <img src="./images/Fantom/6.webp"  alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/Fantom/6.webp"  alt="...">
+          <img src="./images/Fantom/7.webp"  alt="...">
+          <img src="./images/Fantom/8.webp"  alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section id="NewArrival">
+    <h1>NEW ARRIVALS</h1>
+    <div id="carouselExample2" class="carousel slide">
+      <div class="carousel-inner" id="NewArrivalDiv">
+        <div class="carousel-item active" id="NewArrivalRate">
+          <div>
+            <img
+             src="./images/New Arrival/1.webp"  alt="...">
+            <h1>The Boys: Daddy's Home</h1>
+            <p>Oversized T-Shirts</p>
+            <p>₹ 999</p>
+          </div>
+          <div>
+            <img src="./images/New Arrival/2.webp" alt="...">
+            <h1>Plaid: Purple And Black</h1>
+            <p>Men Relaxed Shirts</p>
+            <p>₹ 1499</p>
+          </div>
+          <div>
+            <img src="./images/New Arrival/3.webp" alt="...">
+            <h1>Solids: Airy Blue</h1>
+            <p>Oversized Polos</p>
+            <p>₹ 899</p>
+          </div>
+          <div>
+            <img src="./images/New Arrival/4.webp" alt="...">
+            <h1>TSS Originals: White Block</h1>
+            <p>Oversized Pullovers</p>
+            <p>₹ 1699</p>
+          </div>
+        </div>
+        <div class="carousel-item" id="NewArrivalRate">
+          <div>
+            <img src="./images/New Arrival/5.webp"  alt="...">
+            <h1>TSS Originals: Wood Stripes</h1>
+            <p>Men Rugby Polo Sweatshirts</p>
+            <p>₹ 1499</p>
+          </div>
+          <div>
+            <img src="./images/New Arrival/6.webp"  alt="...">
+            <h1>TSS Originals: Grey</h1>
+            <p>Men Joggers</p>
+            <p>₹ 1199</p>
+          </div>
+          <div>
+            <img src="./images/New Arrival/7.webp"  alt="...">
+            <h1>TSS Originals: Arctic Patch</h1>
+            <p>Men Jeans</p>
+            <p>₹ 1999 <del>₹ 2499</del><span>20% OFF</span></p>
+          </div>
+          <div>
+            <img src="./images/New Arrival/8.webp" alt="...">
+            <h1>Looney Tunes: Samurai Bugs</h1>
+            <p>Oversized Full Sleeve T-Shirts</p>
+            <p>₹ 1699</p>
+          </div>
+        </div>
+        <div class="carousel-item" id="NewArrivalRate">
+          <div>
+            <img src="./images/New Arrival/6.webp"  alt="...">
+            <h1>TSS Originals: Grey</h1>
+            <p>Men Joggers</p>
+            <p>₹ 1199</p>
+          </div>
+          <div>
+            <img src="./images/New Arrival/7.webp"  alt="...">
+            <h1>TSS Originals: Arctic Patch</h1>
+            <p>Men Jeans</p>
+            <p>₹ 1999 <del>₹ 2499</del><span>20% OFF</span></p>
+          </div>
+          <div>
+            <img src="./images/New Arrival/8.webp"  alt="...">
+            <h1>Looney Tunes: Samurai Bugs</h1>
+            <p>Oversized Full Sleeve T-Shirts</p>
+            <p>₹ 1699</p>
+          </div>
+          <div>
+            <img src="./images/New Arrival/9.webp" alt="...">
+            <h1>Naruto: Split Sneakers</h1>
+            <p>Oversized Pullovers</p>
+            <p>₹  2499 <del>₹ 2999 </del><span>16% OFF</span></p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section id="LatestCollection">
+    <h1>LATEST COLLECTION</h1>
+    <div id="carouselExample3" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/Latest Collection/1.webp"  alt="...">
+          <img src="./images/Latest Collection/2.webp" alt="...">
+          <img src="./images/Latest Collection/3.webp" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/Latest Collection/4.webp"  alt="...">
+          <img src="./images/Latest Collection/5.webp"  alt="...">
+          <img src="./images/Latest Collection/6.webp"  alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/Latest Collection/7.webp"  alt="...">
+          <img src="./images/Latest Collection/8.webp"  alt="...">
+          <img src="./images/Latest Collection/9.webp"  alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/Latest Collection/9.webp"  alt="...">
+          <img src="./images/Latest Collection/10.webp"  alt="...">
+          <img src="./images/Latest Collection/11.webp"  alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section id="TopSelling">
+    <h1>TOP SELLING </h1>
+    <div id="carouselExample4" class="carousel slide">
+      <div class="carousel-inner" id="TopSectionDiv">
+        <div class="carousel-item active" id="TopSellingRate">
+          <div>
+            <img src="./images/TopSelling/1.webp"  alt="...">
+            <h1>TSS Originals: Mushroom</h1>
+            <p>Men Oversized Hoodies</p>
+            <p>₹ 1699</p>
+          </div>
+          <div>
+            <img src="./images/TopSelling/2.webp" alt="...">
+            <h1>Garfield: Sporty Cat</h1>
+            <p>Oversized T-Shirts</p>
+            <p>₹ 999</p>
+          </div>
+          <div>
+            <img src="./images/TopSelling/3.webp" alt="...">
+            <h1>Marvel: Funk</h1>
+            <p>Printed Shirts</p>
+            <p>₹ 899 <del>₹ 1299</del><span>30% OFF</span></p>
+          </div>
+          <div>
+            <img src="./images/TopSelling/4.webp" alt="...">
+            <h1>Solids: Dark Blue</h1>
+            <p>Men Cargo Jeans</p>
+            <p>₹ 1799</p>
+          </div>
+        </div>
+        <div class="carousel-item" id="TopSellingRate">
+          <div>
+            <img src="./images/TopSelling/5.webp"  alt="...">
+            <h1>Kung Fu Panda: The Warrior</h1>
+            <p>Men Oversized Sweatshirts</p>
+            <p>₹ 1599</p>
+          </div>
+          <div>
+            <img src="./images/TopSelling/6.webp"  alt="...">
+            <h1>Solids: Dark Green</h1>
+            <p>Men Cargo Joggers</p>
+            <p>₹ 1299</p>
+          </div>
+          <div>
+            <img src="./images/TopSelling/7.webp"  alt="...">
+            <h1>TSS Originals: Camo Fade</h1>
+            <p>Men Puffer Jackets</p>
+            <p>₹ 2499 <del>₹ 2999 </del><span>16% OFF</span></p>
+          </div>
+          <div>
+            <img src="./images/TopSelling/8.webp" alt="...">
+            <h1>Popeye: Bring Em On</h1>
+            <p>Oversized Full Sleeve T-Shirts</p>
+            <p>₹ 999</p>
+          </div>
+        </div>
+        <div class="carousel-item" id="TopSellingRate">
+          <div>
+            <img src="./images/TopSelling/6.webp"  alt="...">
+            <h1>Solids: Dark Green</h1>
+            <p>Men Cargo Joggers</p>
+            <p>₹ 1299</p>
+          </div>
+          <div>
+            <img src="./images/TopSelling/7.webp"  alt="...">
+            <h1>TSS Originals: Camo Fade</h1>
+            <p>Men Puffer Jackets</p>
+            <p>₹ 2499 <del>₹ 2999 </del><span>16% OFF</span></p>
+          </div>
+          <div>
+            <img src="./images/TopSelling/8.webp"  alt="...">
+            <h1>Popeye: Bring Em On</h1>
+            <p>Oversized Full Sleeve T-Shirts</p>
+            <p>₹ 999</p>
+          </div>
+          <div>
+            <img src="./images/TopSelling/9.webp" alt="...">
+            <h1>TSS Originals: Antique Red</h1>
+            <p>Oversized Polos</p>
+            <p>₹ 899 </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section id="Categories">
+    <h1>CATEGORIES</h1>
+    <div id="FirstDiv">
+      <img src="./images/Categories/1.webp" alt="">
+      <img src="./images/Categories/2.webp" alt="">
+      <img src="./images/Categories/3.webp" alt="">
+
+    </div>
+    <div id="SecondDiv">
+      <img src="./images/Categories/4.webp" alt="">
+      <img src="./images/Categories/5.webp" alt="">
+      <img src="./images/Categories/6.webp" alt="">
+      <img src="./images/Categories/7.webp" alt="">
+      <img src="./images/Categories/8.webp" alt="">
+      <img src="./images/Categories/9.webp" alt="">
+      <img src="./images/Categories/10.webp" alt="">
+      <img src="./images/Categories/11.webp" alt="">
+      <img src="./images/Categories/12.webp" alt="">
+      <img src="./images/Categories/13.webp" alt="">
+      <img src="./images/Categories/14.webp" alt="">
+      <img src="./images/Categories/15.webp" alt="">
+    </div>
+
+  </section>
+  <section id="Membership">
+    <h1>MEMBERSHIP</h1>
+    <img src="./images/Membership/member.webp" alt="">
+
+  </section>
+  <section id="CelebrityCloset">
+    <h1>STRAIGHT OUT OF CELEBRITY CLOSETS</h1>
+    <img src="./images/Celebrety Closet/celebrity.webp" alt="">
+
+  </section>
+  <section id="OfficialSection">
+    <h1>OFFICIAL MERCHANDISE</h1>
+    <div id="carouselExample5" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/Official Merchendise/1.webp"  alt="...">
+          <img src="./images/Official Merchendise/2.webp" alt="...">
+          <img src="./images/Official Merchendise/3.webp" alt="...">
+          <img src="./images/Official Merchendise/4.webp" alt="...">
+          <img src="./images/Official Merchendise/5.webp" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="./images/Official Merchendise/6.webp"  alt="...">
+          <img src="./images/Official Merchendise/7.webp"  alt="...">
+          <img src="./images/Official Merchendise/8.webp"  alt="...">
+          <img src="./images/Official Merchendise/9.webp" alt="...">
+          <img src="./images/Official Merchendise/10.webp" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section id="FooterSection">
+    <div id="FooterSectionh1">
+      <h1>HOMEGROWN INDIAN BRAND</h1>
+    </div>
+    <div id="FooterSectionspan">
+      <h1>Over <span>6 Million</span> Happy Customers</h1>
+    </div>
+    <div class="row" id="MainDiv">
+      <div class="col">
+        <h1>NEED HELP</h1>
+        <p>Contact Us</p>
+        <p>Track Order</p>
+        <p>Returns & Refunds
+        <p>FAQs</p>
+        <p>My Account</p>
+      </div>
+      <div class="col">
+        <h1 id="Companyh1">COMPANY</h1>
+        <p>About Us</p>
+        <p>Careers</p>
+        <p>Community Initiatives</p>
+        <p>Souled Army</p>
+        <p>My Account</p>
+      </div>
+      <div class="col">
+        <h1>MORE INFO</h1>
+        <p>T&C</p>
+        <p>Privacy Policy</p>
+        <p>Sitemap</p>
+      </div>
+      <div class="col">
+        <h1 id="StoresNearMe">STORE NEAR ME</h1>
+        <p>Bandra</p>
+        <p>Thane</p>
+        <p>Colaba</p>
+        <p>Palladium</p>
+        <p>Pune</p>
+        <p>Bangalore</p>
+        <p>Malad</p>
+        <p>Ghatkopar</p>
+        <p>Goregaon</p>
+        <p>Ahmedabad</p>
+        <p>Haryana</p>
+        <p>Indore</p>
+        <p>Bhopal</p>
+        <p>Surat</p>
+      </div>
+      <!-- <p><i class="fa fa-inr" aria-hidden="true"></i>COD Available</p> -->
+      <p><i class="fa fa-inr" aria-hidden="true"></i><span>COD Available</span> </p>
+      <p><i class="fa fa-refresh" aria-hidden="true"></i>  <span>30 Days Easy Returns</span></p>
+      <section id="GoogleImg">
+        <p><img src="./images/googlePlay.PNG" alt=""></p>
+      </section>
+      <section id="IconeeSection">
+        <p> Follow Us:
+        <span id="IconsD">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <i class="fa fa-snapchat" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </span>
+        </p>
+      </section>
+      <section id="NavigationBar">
+        <img src="./images/navigation_link.PNG" id="NavigationTable">
+      </section>
+      <section id="ShippingPart">
+        <img src="./images/shipping_partner.PNG" alt="">
+      </section>
+      <section id="PopularSearch">
+        
+          <span id="HeadingPopularContent">POPULAR SEARCHES <span id="Heading Popular"></span></span>
+          
+       
+      </section>
+      <section id="ListSection">
+        <ul>
+          <li>Hoodies and Sweatshirts</li>
+          <li>Oversized T-shirts</li>
+          <li>Casual Shirts</li>
+          <li>All T-Shirts</li>
+          <li>Polos</li>
+          <li>Oversized Full Sleeve</li>
+          <li>Jackets</li>
+          <li>Classic Fit T-shirts</li>
+          <li>All Solid T-shirts</li>
+          <li>Co-ord Sets</li>
+          <li>Printed Shirts</li>
+          <li>All Cargos</li>
+          <li>Jeans</li>
+          <li>Cotton Pants</li>
+          <li>Joggers</li>
+          <li>Shorts</li>
+          <li>Boxers & Innerwear</li>
+          <li>Pajamas</li>
+          <li>Sneakers</li>
+          <li>Perfumes</li>
+          <li>Backpacks</li>
+          <li>Windcheaters & Umbrellas</li>
+          <li>Socks</li>
+          <li>Caps</li>
+          <li>New Arrivals</li>
+          <li>Best Sellers</li>
+          <li>Supima</li>
+          <li>Streetwear</li>
+          <li>Superheros</li>
+          <li>Activewear</li>
+          <li>Tie-Dye</li>
+          <li>Hottest Deals</li>
+          
+          <!-- <li>© Untitled. All rights reserved.</li>
+          <li>Design: <a href="">HTML5 UP</a></li>
+          <li>Demo Images: <a href="">Unsplash</a></li> -->
+        </ul>
+
+      </section>
+      <section id="ByeSection">
+        <h6> <i class="fa fa-copyright" aria-hidden="true"></i>The Souled Store 2023-24</h6>
+      </section>
+      
+  
+      
+    </div>
+    
+    
+    
+
+  </section>
+    
+</body>
+</html>
