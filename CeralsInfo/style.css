@@ -1,0 +1,237 @@
+html
+{
+    scroll-behavior: smooth;
+    /* transform: translateY(100px);
+    transform-style: preserve-3d;
+    transition: ease-in-out 1s; */
+    /* zoom: 20%; */
+}
+body
+{
+   padding: 0px;
+   margin: 0px;
+   overflow-x: hidden;
+   height: 100%;
+   background-color: #800000;
+   font-family: 'Playfair Display', serif;
+}
+h2
+{
+    color: #FF5733 ;
+    transform: translateX(50px);
+    transition: ease-in-out 1s;
+}
+
+p
+{
+    font-weight: 600;
+    color: #5B7C99;
+    /* transform: translateX(10px);
+    transition: ease-in-out 1s; */
+    
+}
+#Start h1
+{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+.float-container1 {
+    
+    /* animation-duration: 20s;
+    animation-name:ease-in;
+    animation-iteration-count: 1; */
+
+    /* transform: translateX(100px);
+    transition: 2s ease-in-out;
+     */
+     animation-duration: 2s;
+     animation-timing-function: ease-in-out;
+     animation-delay: 0s;
+     animation-iteration-count: 1;
+     animation-name: slideInLeft;
+    background-color: white;
+    display: inline-block;
+    width: 100%;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    /* transform: translateY(0px) 4s; */
+    
+}
+
+
+.float-child1{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;;
+    display: inline;
+    background-color: white;
+    width: 45%;
+    float: left;
+    padding: 25px;
+    
+}  
+.float-child1:nth-child(2) h3
+{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    animation-direction: normal;
+    margin-left: 85px;
+    color: green;
+   
+}
+.float-container2 {
+
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    background-color: white;
+    display: inline-block;
+    margin-top: 50px;
+    width: 100%;
+    
+}
+
+.float-child2{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    display: inline;
+    background-color: white;
+    width: 46%;
+    float: left;
+    padding: 20px;
+    
+} 
+.float-child2 img
+{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    width: 300px;
+    height: 200px;
+}
+.float-child2:nth-child(2) h3
+{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    margin-left: 85px;
+    color: green;
+   
+}
+.float-container3 {
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    background-color: white;
+    display: inline-block;
+    margin-top: 50px;
+    width: 100%;
+    
+}
+
+.float-child3{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    display: inline;
+    background-color: white;
+    width: 46%;
+    float: left;
+    padding: 20px;
+    
+} 
+.float-child3 img
+{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    width: 300px;
+    height: 200px;
+}
+.float-child3:nth-child(2) h3
+{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    margin-left: 85px;
+    color: green;
+   
+}
+.float-container4 {
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    background-color: white;
+    display: inline-block;
+    margin-top: 50px;
+    width: 100%;
+    
+}
+.float-child4{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    display: inline;
+    background-color: white;
+    width: 46%;
+    float: left;
+    padding: 20px;
+    
+} 
+.float-child4 img
+{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    width: 300px;
+    height: 200px;
+}
+.float-child4:nth-child(2) h3
+{
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideInLeft;
+    margin-left: 85px;
+    color: green;
+   
+}
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }

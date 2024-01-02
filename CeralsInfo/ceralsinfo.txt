@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>International Year of Millet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Start">
+        <h1>Millet Information</h1>
+    </div>
+    <div class="float-container">
+        <section class="float-child">
+            <h2>Sorghum Millet (Jowar)</h2>
+            <img src="./images/jowar.jpeg" alt="">
+            <p>1. Jowar is globally known as the “new quinoa” for its gluten-free and whole-grain goodness. <br> <br>2. It goes by the name of Sorghum in English. <br> <br>3. In India, jowar is a staple food item.
+
+            </p>
+        </section>
+        <section class="float-child">
+            <h2>Ingridients :</h2>
+            <img src="./images/jowaridli.jpeg" alt="">
+            <img src="./images/jowarchakli.jpeg" alt="">
+            <img src="./images/jowarroti.jpeg" alt="">
+
+         </section>
+    </div>
+    
+    <!-- <div id="Millet2">
+        <h2>Pearl Millet (Bajra)</h2>
+        <img src="./images/bajra.jpeg" alt="">
+        <p>1. Bajra is a traditional Hindi name for the Pennisetum glaucum crop — also known as pearl millet. <br>
+            <br>2. It’s likewise known as dukn, cumbu, gero, sanio, kambu, babala, or bulrush millet (1). <br><br>
+            3. The grain is primarily grown in Africa and India, where it’s a major source of nutrition. <br><br>
+            4. However, it’s also grown and consumed in many other places around the world. <br><br>5. Bajra refers to the edible seeds of pearl millet plants. <br><br>6. They grow in various shades of white, yellow, gray, brown, and bluish-purple. <br><br>7. The seeds are typically cooked as a cereal grain or sometimes finely ground and used as a flour. 
+        </p>
+    </div>
+    <div id="Millet3">
+        <h2>Finger Millet (Ragi)</h2>
+        <img src="./images/ragi.jpeg" alt="">
+        <p>1. Finger millet originated in Africa and has been cultivated for many thousands of years in Uganda and Ethiopia. <br><br>2. In India, the crop was probably introduced 4000 years ago <br><br>3. It has been found in archeological excavations in the Harappan Civilization. 
+        </p>
+    </div>
+    <div id="Millet4">
+        <h2>Little Millet (Moraiyo)</h2>
+        <img src="./images/moraiyo.jpeg" alt="">
+        <p>1. Moraiyo is also known as Sava in Marathi, Gajro in Gujarati, Saame in Kannada, Samai in Tamil, and Samalu in Telugu. <br><br>2. It is a traditional crop which is grown across India and is suitable for all age groups. <br><br>3. It is a relative of Proso Millet but the seeds of little millets are smaller when compared to the Proso Millet. <br><br>4. It is highly nutritious and we can consume it as rice. <br><br>5.  All the dishes that require staple rice can be prepared using Little Millet as it has the small seed and can be cooked faster than other similar grains.</p>
+    </div> -->
+</body>
+</html>
+
+css file
+body
+{
+   padding: 0px;
+   margin: 0px;
+   overflow-x: hidden;
+   height: 100%;
+   background-color: #800000;
+   font-family: 'Playfair Display', serif;
+}
+h2
+{
+    color: #FF5733 ;
+}
+p
+{
+    color: #5B7C99;
+}
+#Start h1
+{
+    color: green;
+    text-align: center;
+}
+.float-container {
+    
+    padding: 20px;
+    background-color: white;
+}
+.float-container .float-child
+{
+    display: inline;
+    width: 50%;
+    /* float: left; */
+    padding: 0px;
+    background-color: white;
+    margin-right: 0px;
+}
+.float-container .float-child:nth-child(2)
+{
+    display: inline;
+    width: 50%;
+}
+.float-container .float-child h2
+{
+    display: inline;
+    width: 50%!important;
+}
+.float-container .float-child img
+{
+    display: inline;
+}
+.float-container .float-child p
+{
+    display: inline;
+}
+#Millet1
+{
+    display: inline-block;
+    width: 50%;
+    float: left;
+    padding: 20px;
+    background-color: white;
+   
+}
+#Millet1 h2
+{
+    text-align: center;
+    
+}
+#Millet1 img
+{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+#Millet1 p
+{
+    display: block;
+    margin: 20px 20px 20px 20px ;
+}
+#Millet1Ingidients
+{
+    display: inline-block;
+    width: 50%;
+    float: right;
+    padding: 20px;
+    background-color: white;
+    /* width: 48%;
+    display: inline-block;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 59px;
+    float: right; */
+}
+#Millet1Ingidients h1
+{
+    text-align: center;
+}
+#Millet1Ingidients img
+{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+#Millet2
+{
+    
+    width: 50%;
+    background-color: white;
+    margin-top: 500px;
+    float: right;
+    
+}
+#Millet2 h2
+{
+    text-align: center;
+}
+#Millet2 img
+{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+#Millet2 p
+{
+    display: block;
+    margin: 20px 20px 20px 20px ;
+}
+#Millet3
+{
+    background-color: white;
+    margin-top: 770px;
+    width: 50%;
+}
+#Millet3 h2
+{
+    padding-top: 21px;
+    text-align: center;
+}
+#Millet3 img
+{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+#Millet3 p
+{
+    display: block;
+    margin: 20px 20px 20px 20px ;
+    padding-bottom: 20px;
+}
+#Millet4
+{
+    width: 50%;
+    background-color: white;
+    margin-top: 20px;
+    float: right;
+}
+#Millet4 h2
+{
+    text-align: center;
+}
+#Millet4 img
+{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+#Millet4 p
+{
+    display: block;
+    margin: 20px 20px 20px 20px ;
+    padding-bottom: 20px;
+}
